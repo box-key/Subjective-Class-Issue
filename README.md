@@ -8,7 +8,7 @@ Codes for research article on a type of class noise specific to user-generated d
 - numpy (1.18.1)
 - scipy (1.2.2)
 - nltk (3.4.5)
--gensim (3.5.0)
+- gensim (3.5.0)
 
 # Repository Structure
 "*.py" files contain our methods and ".ipynb" files show the usage and results of the methods.
