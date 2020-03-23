@@ -1,14 +1,15 @@
 # Description
 
-Codes for research article on a type of class noise specific to user-generated datasets (e.g. customer reviews), "A Pitfall of Learning from User-generated Dataset". We used datasets generaously provided by Donorschoose.org ( https://research.donorschoose.org/t/download-opendata/33), Yelp (https://www.yelp.com/dataset), and Amazon (https://www.kaggle.com/snap/amazon-fine-food-reviews).
+Codes for research article on a type of class noise specific to user-generated datasets (e.g. customer reviews), "A Pitfall of Learning from User-generated Dataset". We used datasets generaously provided by Donorschoose.org ( https://research.donorschoose.org/t/download-opendata/33), Yelp (https://www.yelp.com/dataset), and Amazon (https://www.kaggle.com/snap/amazon-fine-food-reviews). By following the usage below, you can replicate the results sohwn in our paper.
 
-# Libraries
-- scikit-learn (0.21.3)
-- pandas (0.24.2)
-- numpy (1.18.1)
-- scipy (1.2.2)
-- nltk (3.4.5)
-- gensim (3.5.0)
+# Requirements 
+* python3
+* jupyter notebook
 
-# Repository Structure
-"*.py" files contain our methods and ".ipynb" files show the usage and results of the methods.
+# Usage
+1. git clone this repo
+1. `cd` into the repo
+1. open python virtual environment
+1. run `pip install -r requirements.txt`
+1. in the python virtual environment, open `jupyter notebook`
+1. open ipynb files, where name represents the tasks of each notebook
