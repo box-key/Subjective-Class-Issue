@@ -2,7 +2,7 @@ from sklearn.preprocessing import LabelBinarizer
 from sklearn.utils.extmath import safe_sparse_dot
 from sklearn.preprocessing import MaxAbsScaler
 
-def getChi2(X, y):
+def _getChi2(X, y):
     # Map categorical values into numerical values
     lb = LabelBinarizer()
     Y = lb.fit_transform(y)
@@ -27,7 +27,7 @@ def getChi2(X, y):
 def getK_NFIS(X, y, k):
     # Obtain matrix of chi2 score
     # Each column corresponds to each class label
-    chi2 = getChi2(X, y).T
+    chi2 = _getChi2(X, y).T
     sorted_chi2 = []
     for i in range(chi2.shape[1]):
         # Sort a column in descending order
@@ -36,7 +36,7 @@ def getK_NFIS(X, y, k):
         sorted_chi2.append(MaxAbsScaler().fit_transform(sorted[:,i][:k].reshape(k, 1)))
     return sorted_chi2
 
-def plotScores(score, row, col, bins):
+def plot_scores(score, row, col, bins):
     fig, axs = plt.subplots(row,col,sharey=True, tight_layout=True)
     cap = len(score)
     for r in range(row):

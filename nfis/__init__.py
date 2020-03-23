@@ -1,0 +1,2 @@
+from .normalized_feature_indicative_score import getK_NFIS
+from .normalized_feature_indicative_score import plot_scores
