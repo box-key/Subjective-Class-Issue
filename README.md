@@ -20,7 +20,7 @@ If you would like to run our notebooks, please follow the steps below:
 
 # Citation
 
-If you would like to cite our paper or use our code, please cite our paper:
+If you would find our paper or codes useful, please cite our paper:
 ```BibTex
 @Article{NemotoShweta20,
   author        = "Kei Nemoto, Shweta Jain",
