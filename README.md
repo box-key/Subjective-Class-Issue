@@ -18,7 +18,7 @@ If you would like to run our notebooks, please follow the steps below:
 1. open ipynb files, where the name represents the tasks of each notebook
 (*make sure you train doc2vec before you run tsne plots)
 
-# Citation
+<!--# Citation
 
 If you would find our paper or codes useful, please cite our paper:
 ```BibTex
@@ -27,4 +27,4 @@ If you would find our paper or codes useful, please cite our paper:
   title         = "A Pitfall of Learning from User-generated Data: In-depth Analysis of Subjective Class Problem",
   journal       = "arXiv:2003.10621",
   year          = "2020",
-}
+}-->
